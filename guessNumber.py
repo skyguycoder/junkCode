@@ -6,11 +6,11 @@ end = 100
 num_guesses = 0
 
 print("=======================================")
-print("debug => the random number is " + str(number))
+print(f"debug => the random number is {number}")
 print("=======================================")
 print("")
 while True:
-    guess = int(input("Guess a number between "+ str(start) +" to " + str(end)+": "))
+    guess = int(input(f"Guess a number between {start} to {end}: "))
     num_guesses += 1
 
     if guess == number:
